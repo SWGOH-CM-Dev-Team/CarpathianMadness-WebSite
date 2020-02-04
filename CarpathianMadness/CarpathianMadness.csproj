@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.Odbc" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarpathianMadness.Services\CarpathianMadness.Services.csproj" />
+    <ProjectReference Include="..\Framework\CarpathianMadness.Framework.DAL\CarpathianMadness.Framework.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

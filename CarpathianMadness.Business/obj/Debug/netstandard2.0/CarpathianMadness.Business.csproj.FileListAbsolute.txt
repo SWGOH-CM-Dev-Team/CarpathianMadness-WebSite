@@ -1,0 +1,15 @@
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Business.deps.json
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Business.dll
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Business.pdb
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Framework.Core.dll
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Framework.DAL.dll
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Framework.NLog.dll
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Framework.DAL.pdb
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Framework.Core.pdb
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\bin\Debug\netstandard2.0\CarpathianMadness.Framework.NLog.pdb
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\obj\Debug\netstandard2.0\CarpathianMadness.Business.csprojAssemblyReference.cache
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\obj\Debug\netstandard2.0\CarpathianMadness.Business.AssemblyInfoInputs.cache
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\obj\Debug\netstandard2.0\CarpathianMadness.Business.AssemblyInfo.cs
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\obj\Debug\netstandard2.0\CarpathianMadness.Business.csproj.CopyComplete
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\obj\Debug\netstandard2.0\CarpathianMadness.Business.dll
+C:\Git Claudio\SWGOH\CarpathianMadness.Business\obj\Debug\netstandard2.0\CarpathianMadness.Business.pdb
