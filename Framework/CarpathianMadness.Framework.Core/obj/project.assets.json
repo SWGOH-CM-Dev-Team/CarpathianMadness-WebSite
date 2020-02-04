@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj",
+      "projectUniqueName": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj",
       "projectName": "CarpathianMadness.Framework.Core",
-      "projectPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj",
+      "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj",
       "packagesPath": "C:\\Users\\claudio.admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\obj\\",
+      "outputPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\claudio.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

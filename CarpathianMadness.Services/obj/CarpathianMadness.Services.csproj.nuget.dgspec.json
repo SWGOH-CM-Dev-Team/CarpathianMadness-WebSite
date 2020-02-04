@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Services\\CarpathianMadness.Services.csproj": {}
+    "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Services\\CarpathianMadness.Services.csproj": {}
   },
   "projects": {
-    "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj": {
+    "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj",
+        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj",
         "projectName": "CarpathianMadness.Business",
-        "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj",
+        "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj",
         "packagesPath": "C:\\Users\\claudio.admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Business\\obj\\",
+        "outputPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\claudio.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj": {
-                "projectPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj"
+              "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj": {
+                "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Services\\CarpathianMadness.Services.csproj": {
+    "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Services\\CarpathianMadness.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Services\\CarpathianMadness.Services.csproj",
+        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Services\\CarpathianMadness.Services.csproj",
         "projectName": "CarpathianMadness.Services",
-        "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Services\\CarpathianMadness.Services.csproj",
+        "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Services\\CarpathianMadness.Services.csproj",
         "packagesPath": "C:\\Users\\claudio.admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Services\\obj\\",
+        "outputPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\claudio.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,8 +86,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj": {
-                "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj"
+              "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj": {
+                "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\CarpathianMadness.Business\\CarpathianMadness.Business.csproj"
               }
             }
           }
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj": {
+    "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj",
+        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj",
         "projectName": "CarpathianMadness.Framework.Core",
-        "projectPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj",
+        "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj",
         "packagesPath": "C:\\Users\\claudio.admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\obj\\",
+        "outputPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\claudio.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -185,14 +185,14 @@
         }
       }
     },
-    "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj": {
+    "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj",
+        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj",
         "projectName": "CarpathianMadness.Framework.DAL",
-        "projectPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj",
+        "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.DAL\\CarpathianMadness.Framework.DAL.csproj",
         "packagesPath": "C:\\Users\\claudio.admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.DAL\\obj\\",
+        "outputPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\claudio.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -208,11 +208,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj": {
-                "projectPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj"
+              "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj": {
+                "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.Core\\CarpathianMadness.Framework.Core.csproj"
               },
-              "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj": {
-                "projectPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj"
+              "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj": {
+                "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj"
               }
             }
           }
@@ -267,14 +267,14 @@
         }
       }
     },
-    "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj": {
+    "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj",
+        "projectUniqueName": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj",
         "projectName": "CarpathianMadness.Framework.NLog",
-        "projectPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj",
+        "projectPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.NLog\\CarpathianMadness.Framework.NLog.csproj",
         "packagesPath": "C:\\Users\\claudio.admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Git Claudio\\SWGOH\\Framework\\CarpathianMadness.Framework.NLog\\obj\\",
+        "outputPath": "C:\\Git Claudio\\SWGOH\\CarpathianMadness-WebSite\\Framework\\CarpathianMadness.Framework.NLog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\claudio.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

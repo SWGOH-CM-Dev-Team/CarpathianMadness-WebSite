@@ -18,10 +18,14 @@ namespace CarpathianMadness.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            this._homeService = new HomeService();
+            
         }
 
         public IActionResult Index()
         {
+
+           
 
             _homeService.SearchHome(8);
 
