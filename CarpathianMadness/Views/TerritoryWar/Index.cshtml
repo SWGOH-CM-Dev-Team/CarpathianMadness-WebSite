@@ -1,0 +1,180 @@
+﻿@model CarpathianMadness.Models.TerritoryWarModel
+@{
+    ViewData["Title"] = "Teritory War";
+}
+
+@{
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="card w-100 @Model.OverviewStyle">
+            <div class="card-header @Model.OverviewStyle text-center font-weight-bold">
+                <h2>Overview</h2>
+            </div>
+            <div class="card-body text-center">
+                <div class="row">
+                    <div class="col text-center">
+                        <h5>Guild Name</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-right">
+                        <h6>@Model.OurGuildName</h6>
+                    </div>
+                    <h6>VS</h6>
+                    <div class="col text-left">
+                        <h6>@Model.EnemyGuildName</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <h5>Galactic Power</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-right">
+                        <h6>@Model.OurGalacticPower</h6>
+                    </div>
+                    <h6>-</h6>
+                    <div class="col text-left">
+                        <h6>@Model.EnemyGalactivPower</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <h5>Members</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-right">
+                        <h6>@Model.OurMembersCount</h6>
+                    </div>
+                    <h6>-</h6>
+                    <div class="col text-left">
+                        <h6>@Model.EnemyMembersCount</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <h5>Zetas</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-right">
+                        <h6>@Model.ZetasCount[0]</h6>
+                    </div>
+                    <h6>-</h6>
+                    <div class="col text-left">
+                        <h6>@Model.ZetasCount[1]</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer @Model.OverviewStyle">
+                <div class="row">
+                    <div class="col-sm text-center">
+                        <h5>Relics</h5>
+                        @for (int i = 0; i <= 6; i++)
+                        {
+                            <p class="card-text">Relic @(i+1) characters: @Model.RelicCounter[i] - @Model.EnemyRelicCounter[i]</p>
+                        }
+                        </div>
+                    <div class="col-sm text-center">
+                        <h5>Gear</h5>
+                    </div>
+                    <div class="col-sm text-center">
+                        <h5>Mods</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="card-columns">
+            @for (int i = 0; i <= Model.EventUnitsInfo.Count - 1; i++)
+            {
+                @if (Model.EventUnitsInfo[i].AvailableUnits[0] > 0 || Model.EventUnitsInfo[i].AvailableUnits[1] > 0)
+                {
+                    <div class="card border-info">
+                        <div class="card-header text-center border-info">
+                            @Model.EventUnitsInfo[i].Name
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Count: @Model.EventUnitsInfo[i].AvailableUnits[0] - @Model.EventUnitsInfo[i].AvailableUnits[1]</p>
+
+                            @if (Model.EventUnitsInfo[i].SevenStarUnitCount[0] > 0 || Model.EventUnitsInfo[i].SevenStarUnitCount[1] > 0)
+                            {
+                                <p class="card-text">7*: @Model.EventUnitsInfo[i].SevenStarUnitCount[0] - @Model.EventUnitsInfo[i].SevenStarUnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].SixStarUnitCount[0] > 0 || Model.EventUnitsInfo[i].SixStarUnitCount[1] > 0)
+                            {
+                                <p class="card-text">6*: @Model.EventUnitsInfo[i].SixStarUnitCount[0] - @Model.EventUnitsInfo[i].SixStarUnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].FiveStarUnitCount[0] > 0 || Model.EventUnitsInfo[i].FiveStarUnitCount[1] > 0)
+                            {
+                                <p class="card-text">5*: @Model.EventUnitsInfo[i].FiveStarUnitCount[0] - @Model.EventUnitsInfo[i].FiveStarUnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].G11UnitCount[0] > 0 || Model.EventUnitsInfo[i].G11UnitCount[1] > 0)
+                            {
+                                <p class="card-text">G11: @Model.EventUnitsInfo[i].G11UnitCount[0] - @Model.EventUnitsInfo[i].G11UnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].G12UnitCount[0] > 0 || Model.EventUnitsInfo[i].G12UnitCount[1] > 0)
+                            {
+                                <p class="card-text">G12: @Model.EventUnitsInfo[i].G12UnitCount[0] - @Model.EventUnitsInfo[i].G12UnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].G13UnitCount[0] > 0 || Model.EventUnitsInfo[i].G13UnitCount[1] > 0)
+                            {
+                                <p class="card-text">G13: @Model.EventUnitsInfo[i].G13UnitCount[0] - @Model.EventUnitsInfo[i].G13UnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].RelicTier3UnitCount[0] > 0 || Model.EventUnitsInfo[i].RelicTier3UnitCount[1] > 0)
+                            {
+                                <p class="card-text">R3: @Model.EventUnitsInfo[i].RelicTier3UnitCount[0] - @Model.EventUnitsInfo[i].RelicTier3UnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].RelicTier4UnitCount[0] > 0 || Model.EventUnitsInfo[i].RelicTier4UnitCount[1] > 0)
+                            {
+                                <p class="card-text">R4: @Model.EventUnitsInfo[i].RelicTier4UnitCount[0] - @Model.EventUnitsInfo[i].RelicTier4UnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].RelicTier5UnitCount[0] > 0 || Model.EventUnitsInfo[i].RelicTier5UnitCount[1] > 0)
+                            {
+                                <p class="card-text">R5: @Model.EventUnitsInfo[i].RelicTier5UnitCount[0] - @Model.EventUnitsInfo[i].RelicTier5UnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].RelicTier6UnitCount[0] > 0 || Model.EventUnitsInfo[i].RelicTier6UnitCount[1] > 0)
+                            {
+                                <p class="card-text">R6: @Model.EventUnitsInfo[i].RelicTier6UnitCount[0] - @Model.EventUnitsInfo[i].RelicTier6UnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].RelicTier7UnitCount[0] > 0 || Model.EventUnitsInfo[i].RelicTier7UnitCount[1] > 0)
+                            {
+                                <p class="card-text">R7: @Model.EventUnitsInfo[i].RelicTier7UnitCount[0] - @Model.EventUnitsInfo[i].RelicTier7UnitCount[1]</p>
+                            }
+
+                            @if (Model.EventUnitsInfo[i].OneZetaUnitCount[0] > 0 || Model.EventUnitsInfo[i].OneZetaUnitCount[1] > 0)
+                            {
+                                <p class="card-text">z: @Model.EventUnitsInfo[i].OneZetaUnitCount[0] - @Model.EventUnitsInfo[i].OneZetaUnitCount[1]</p>
+                            }
+                            @if (Model.EventUnitsInfo[i].DoubleZetaUnitCount[0] > 0 || Model.EventUnitsInfo[i].DoubleZetaUnitCount[1] > 0)
+                            {
+                                <p class="card-text">zz: @Model.EventUnitsInfo[i].DoubleZetaUnitCount[0] - @Model.EventUnitsInfo[i].DoubleZetaUnitCount[1]</p>
+                            }
+                            @if (Model.EventUnitsInfo[i].TripleZetaUnitCount[0] > 0 || Model.EventUnitsInfo[i].TripleZetaUnitCount[1] > 0)
+                            {
+                                <p class="card-text">zzz: @Model.EventUnitsInfo[i].TripleZetaUnitCount[0] - @Model.EventUnitsInfo[i].TripleZetaUnitCount[1]</p>
+                            }
+                            @if (Model.EventUnitsInfo[i].QuadrupleZetaUnitCount[0] > 0 || Model.EventUnitsInfo[i].QuadrupleZetaUnitCount[1] > 0)
+                            {
+                                <p class="card-text">zzzz: @Model.EventUnitsInfo[i].QuadrupleZetaUnitCount[0] - @Model.EventUnitsInfo[i].QuadrupleZetaUnitCount[1]</p>
+                            }
+                        </div>
+                    </div>
+                 }
+             }
+            </div>
+    </div>
+}

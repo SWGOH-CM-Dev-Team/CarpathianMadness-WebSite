@@ -6,3 +6,10 @@ C:\Git Claudio\SWGOH\Framework\CarpathianMadness.Framework.Core\obj\Debug\netsta
 C:\Git Claudio\SWGOH\Framework\CarpathianMadness.Framework.Core\obj\Debug\netstandard2.0\CarpathianMadness.Framework.Core.dll
 C:\Git Claudio\SWGOH\Framework\CarpathianMadness.Framework.Core\obj\Debug\netstandard2.0\CarpathianMadness.Framework.Core.pdb
 C:\Git Claudio\SWGOH\Framework\CarpathianMadness.Framework.Core\obj\Debug\netstandard2.0\CarpathianMadness.Framework.Core.csprojAssemblyReference.cache
+C:\Git Claudio\SWGOH\CarpathianMadness-WebSite\Framework\CarpathianMadness.Framework.Core\bin\Debug\netstandard2.0\CarpathianMadness.Framework.Core.deps.json
+C:\Git Claudio\SWGOH\CarpathianMadness-WebSite\Framework\CarpathianMadness.Framework.Core\bin\Debug\netstandard2.0\CarpathianMadness.Framework.Core.dll
+C:\Git Claudio\SWGOH\CarpathianMadness-WebSite\Framework\CarpathianMadness.Framework.Core\bin\Debug\netstandard2.0\CarpathianMadness.Framework.Core.pdb
+C:\Git Claudio\SWGOH\CarpathianMadness-WebSite\Framework\CarpathianMadness.Framework.Core\obj\Debug\netstandard2.0\CarpathianMadness.Framework.Core.AssemblyInfoInputs.cache
+C:\Git Claudio\SWGOH\CarpathianMadness-WebSite\Framework\CarpathianMadness.Framework.Core\obj\Debug\netstandard2.0\CarpathianMadness.Framework.Core.AssemblyInfo.cs
+C:\Git Claudio\SWGOH\CarpathianMadness-WebSite\Framework\CarpathianMadness.Framework.Core\obj\Debug\netstandard2.0\CarpathianMadness.Framework.Core.dll
+C:\Git Claudio\SWGOH\CarpathianMadness-WebSite\Framework\CarpathianMadness.Framework.Core\obj\Debug\netstandard2.0\CarpathianMadness.Framework.Core.pdb

@@ -1,0 +1,41 @@
+﻿@model CarpathianMadness.LoginModel
+@{ 
+    ViewBag.Title = "Login";
+}
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <div class="container h-100 d-flex justify-content-center p-5">
+        <div class="card card-login mx-auto text-center bg-dark">
+            <div class="card-header mx-auto bg-dark">
+                <span> <img src="https://cdn.discordapp.com/attachments/671336463157166082/676495531312414750/logo2.png" class="w-100" alt="Logo"> </span><br /><br />
+                <span class="logo_title mt-5 text-white"> Login</span>
+            </div>
+            <div class="card-body">
+                <form action="" method="post">
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" name="email" class="form-control" placeholder="Username">
+                    </div>
+
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" name="password" class="form-control" placeholder="Password">
+                    </div>
+
+                    <p class="m-t-md">
+                        <a style="color: rgb(255, 255, 255); --darkreader-inline-color:#ffffff;" href="/password_reset/" data-darkreader-inline-color="">Forgot your password ?</a>
+                    </p>
+
+                    <div class="form-group">
+                        <input type="submit" name="btnRegister" value="Register" formaction=@Url.Action("Register") formmethod="get" class="btn btn-outline-info float-left" />
+                        <input type="submit" name="btnLogin" value="Login" formaction=@Url.Action("Login") formmethod="post" class="btn btn-outline-info float-right" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
